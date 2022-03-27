@@ -54,6 +54,12 @@ public class Musteri {
     public Musteri() {
     }
 
+    public Musteri(String ad, String soyad, String adres) {
+        this.ad = ad;
+        this.soyad = soyad;
+        this.adres = adres;
+    }
+
     public Musteri(long id, String ad, String soyad, String adres) {
         this.id = id;
         this.ad = ad;
