@@ -40,7 +40,7 @@ public class Musteri {
      * bırakırsanız default degerler ile devameder.
      * String bir alan -> varchar olur ve maz uzunluk 255 karakter olarak atanır .
      */
-    @Column(name = "MusteriAdi",length =100, nullable = false)
+    @Column(name = "MusteriAdi", length = 100, nullable = false)
     String ad;
     String soyad;
     @Column(length = 500)
